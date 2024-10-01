@@ -1,0 +1,80 @@
+body{
+    Font-Family: Lato, sans-serif;
+    background-image: url("Pilot Link.gif");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    Width: 1180px;
+    margin: 0 auto ;
+}
+
+section{
+    text-align: center;
+}
+
+article{
+    Background: #262626;
+    Display: inline-block;
+    Border: 5px solid #424242;
+    Color: #a1a1a1;
+    width: 25%;
+    padding: 20px;
+    Margin: 80px 20px 0 20px;
+} 
+
+article h1{
+    font-size: 1.5em;
+    Color: #FFF;
+}
+
+.price{
+    font-size: 3em;
+    font-weight: bold;
+    Color: #27dcc4;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{ 
+    list-style-type: none;
+    padding: 5px 0;
+    transition: transform 0.2s;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+button{
+    Background: #27dcc4;
+    border-radius: 15px;
+    Padding: 15px 30px;
+    Margin: 10px 0;
+    font-size: 0.9em;
+    Border: none;
+    transition: transform 0.2s;
+}
+
+button a{
+    text-decoration: none;
+    Color: #FFF;    
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ACACAC;
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Lớp phủ với độ mờ 50% */
+}
+
