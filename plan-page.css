@@ -5,8 +5,9 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 16px;
-    Width: 1180px;
+    max-Width: 1180px;
     margin: 0 auto ;
 }
 
@@ -69,4 +70,11 @@ button:hover{
     background-color: #ACACAC;
     transform: scale(1.1);
 }
+
+@media only screen and ( max-width : 768px ){
+    article{
+        width : 100%;
+    }
+}
+
 
